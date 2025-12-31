@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "test": "node test-api.js",
+    "backup": "node backup.js",
+    "logs": "tail -f logs/combined.log"
   },
   "dependencies": {
     "node-telegram-bot-api": "^0.64.0",
@@ -13,7 +16,9 @@
     "dotenv": "^16.3.1",
     "uuid": "^9.0.1",
     "fs-extra": "^11.2.0",
-    "moment": "^2.29.4"
+    "moment": "^2.29.4",
+    "winston": "^3.11.0",
+    "form-data": "^4.0.0"
   },
   "devDependencies": {
     "nodemon": "^3.0.1"
