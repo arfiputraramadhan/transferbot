@@ -1,0 +1,26 @@
+{
+  "users": [],
+  "transactions": [],
+  "deposits": [],
+  "settings": {
+    "owner_id": "6838042480",
+    "min_deposit": 1000,
+    "max_deposit": 10000000,
+    "fee_percentage": 0.1,
+    "api_key": "i0mtcJfeNPg0mFsxJMXhabY1Tgb6IcpdP5x4ocI5VWFrG4v3Jf15zTiQOy2kfFsMz5NzYdXMyoHUnttYqC9oWbgMG8hQ5iTosROV",
+    "auto_retry": true,
+    "max_retry": 3,
+    "enable_logging": true,
+    "notification_enabled": true
+  },
+  "system": {
+    "last_startup": null,
+    "total_requests": 0,
+    "failed_requests": 0,
+    "successful_transfers": 0,
+    "successful_deposits": 0,
+    "total_volume": 0,
+    "last_backup": null,
+    "last_cleanup": null
+  }
+}
